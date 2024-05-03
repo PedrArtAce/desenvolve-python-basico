@@ -1,6 +1,12 @@
 
-
-list = {1, 2, 3, 4, 5}
-list1 = {4,5,6,7,8}
-
-x = list.intersection(list1)
+def aaaa(string):
+    contagem = { }
+    for char in string:
+        if char in contagem:
+            contagem[char] += 1
+        else:
+            contagem[char] = 1
+    return contagem
+    
+x = aaaa("fdafdlafjdssa")
+print (x)

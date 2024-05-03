@@ -1,0 +1,25 @@
+o código tem como funcionalidade organizar e exibir para usuários os pedidos e entregas de uma empresa de correios,
+localizar agencias para retirada e para administradores o programa permite adicionar pedidos, editar os pedidos ja implementados no sistema,
+apagá-los, e gerenciar os usuários   
+
+ 
+
+Os usuarios e senhas são guardados e “info.txt” contendo usuario senha e tipo de usuario (1 para usuários e 2 para administradores)
+separados por “:”, as senhas e os tipos podem ser alterados pelos administradores, e também podem ser deletados por eles 
+
+Os pedidos são armazenados em “pedidos.txt” contendo o id do pedido, o destino, a cidade em que se encontra, a previsão de entrega
+e o status do pedido, todos separados por “:”, os pedidos podem ser consultados pelos usuarios e editados e deletados pelos administradores 
+
+
+
+
+
+conclusão:  
+
+a unica grande dificuldade que eu tive foi ao armazenar e buscar dados em outros arquivos, tive varias vezes que buscar ajuda 
+externa em forums de ajuda especificos
+
+eu gostaria de ter separado mais o meu codigo em funções mas nesse momento eu tenho medo de de alguma forma quebrar o meu codigo 
+mais do que organiza-lo
+
+
